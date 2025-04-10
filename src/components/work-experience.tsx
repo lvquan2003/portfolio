@@ -60,9 +60,9 @@ const WorkExperience: FC<WorkExperienceProps> = ({ id }) => {
 
         <div className="mt-24 text-center">
           <p className="text-xl">
-            I'm currently looking to join a <span className="text-purple-500">cross-functional</span> team
+            {"I'm currently looking to join a"} <span className="text-purple-500">cross-functional</span> team
           </p>
-          <p className="text-gray-300">that values improving people's lives through accessible design</p>
+          <p className="text-gray-300">{"that values improving people's lives through accessible design"}</p>
         </div>
       </div>
     </section>

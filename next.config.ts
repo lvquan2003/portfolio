@@ -1,7 +1,10 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  output: 'export', // Enable static export for GitHub Pages
+  basePath: '', // Replace with your repository name (e.g., '/wealthfarming-app')
+  reactStrictMode: true, // Enable strict mode for development
+  trailingSlash: true, // Ensure URLs end with a slash for GitHub Pages compatibility
 };
 
 export default nextConfig;

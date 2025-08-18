@@ -13,7 +13,7 @@ const HeroSection: FC<HeroSectionProps> = ({ id }) => {
           <div className="absolute inset-0 bg-purple-600/20 rounded-full blur-3xl"></div>
           <div className="relative z-10">
             <Image
-              src="/avatar.jpg"
+              src="https://res.cloudinary.com/dsq2ux962/image/upload/v1755501342/gen-h-abcd_wfnaye.jpg"
               alt="Avatar"
               width={300}
               height={300}
